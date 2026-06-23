@@ -3,276 +3,147 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Oracle Edge AI | Fredrick Murigi</title>
-
-<link rel="stylesheet" href="style.css">
+<title>Fredrick Murigi | Portfolio</title>
 
 <style>
-
-/* ===== GLOBAL ===== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0b0b0b;
-    color: #fff;
-}
-
-/* ===== NAV ===== */
-nav {
+    background: linear-gradient(135deg, #0a192f, #112240);
+    color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 60px;
-    background: rgba(0,0,0,0.8);
-    border-bottom: 1px solid gold;
-}
-
-nav h2 {
-    color: gold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: gold;
-}
-
-/* ===== HERO LOCKED ORACLE EDGE ===== */
-.hero {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: radial-gradient(circle at center, #1a1a1a, #000);
-    position: relative;
 }
 
-.lock-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.85);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid gold;
-}
-
-.lock-overlay h1 {
-    color: gold;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.lock-overlay p {
-    color: #ccc;
-    margin-bottom: 20px;
-}
-
-.lock-btn {
-    padding: 12px 25px;
-    background: gold;
-    color: black;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-/* ===== PROFILE IMAGE ===== */
-.profile {
-    margin-top: 40px;
-}
-
-.profile img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 3px solid gold;
-    object-fit: cover;
-}
-
-/* ===== SECTIONS ===== */
-section {
-    padding: 60px;
-    border-bottom: 1px solid #222;
-}
-
-h2 {
-    color: gold;
-}
-
-/* ===== CARDS ===== */
-.card {
-    background: #111;
-    padding: 20px;
-    margin-top: 20px;
-    border-left: 3px solid gold;
-}
-
-.skills span {
-    display: inline-block;
-    background: #1a1a1a;
-    padding: 8px 12px;
-    margin: 5px;
-    border: 1px solid gold;
+/* Main card */
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
     border-radius: 20px;
-}
-
-footer {
+    width: 90%;
+    max-width: 700px;
     text-align: center;
-    padding: 20px;
-    border-top: 1px solid gold;
-    margin-top: 40px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
+/* Profile image */
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00b4d8;
+}
+
+/* Logo top right */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 70px;
+}
+
+/* Name */
+h1 {
+    margin-top: 15px;
+    font-size: 26px;
+    color: #00b4d8;
+}
+
+/* Bio */
+.bio {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #d1d1d1;
+}
 </style>
 
 </head>
 
 <body>
 
-<!-- NAV -->
-<nav>
-<h2>Oracle Edge AI</h2>
+<div class="container">
 
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#experience">Experience</a></li>
-<li><a href="#projects">Solutions</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
+    <!-- Company Logo -->
+    <img class="logo" 
+    src="https://raw.githubusercontent.com/FredrickNextGen-Ai/My-Website/main/Oracle%20edge.png.png" 
+    alt="Oracle Edge Logo">
 
-<!-- HERO LOCK SCREEN -->
-<div class="hero">
+    <!-- Profile Image -->
+    <img class="profile-img" 
+    src="https://raw.githubusercontent.com/FredrickNextGen-Ai/My-Website/main/Fredrick%20.png.jpg" 
+    alt="Fredrick Murigi">
 
-<div class="lock-overlay">
+    <!-- Name -->
+    <h1>Fredrick Murigi</h1>
 
-<h1>ORACLE EDGE AI</h1>
-<p>AI • AUTOMATION • BUSINESS TRANSFORMATION</p>
-
-<div class="profile">
-<img src="assets/Fredjpg.jpg" alt="Fredrick Murigi">
-</div>
-
-<h3>Fredrick Murigi</h3>
-<p>Founder | AI Automation Engineer | Business Analyst</p>
-
-<button class="lock-btn">ENTER SYSTEM</button>
+    <!-- Bio -->
+    <div class="bio">
+        I am Fredrick Murigi, a finance and systems professional with experience in pension revenue management, data analysis, and business systems support. I am passionate about leveraging technology and structured processes to improve efficiency, accuracy, and decision-making in financial operations.
+        <br><br>
+        Currently working at Britam, I focus on data integrity, reporting, and supporting system users to ensure smooth operational workflows. I am also building expertise in automation and digital systems to enhance business performance.
+        <br><br>
+        I am the founder of Oracle Edge, a growing initiative focused on digital solutions, automation, and strategic business support services.
+    </div>
 
 </div>
 
-</div>
+</body>
+#
+<header>
+    <nav>
+        <h2>Fredrick Murigi</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<!-- ABOUT ORACLE EDGE -->
+<section class="hero">
+    <img src="images/profile.jpg" alt="Profile Photo">
+    <h1>Hi, I'm Fredrick Murigi</h1>
+    <p>Pension Revenue Assistant | Aspiring Data & Tech Professional</p>
+</section>
+
 <section id="about">
-<h2>About Oracle Edge AI</h2>
-
-<p>
-Oracle Edge AI is an AI-powered automation and business transformation system focused on building intelligent workflows, data-driven decision systems, and enterprise automation solutions.
-</p>
-
-<p>
-Mission: Empower businesses through intelligent automation and AI systems.
-</p>
-
-<p>
-Vision: Become a leading AI automation hub for enterprises in Africa and beyond.
-</p>
-
+    <h2>About Me</h2>
+    <p>
+        I am a Bachelor of Economics graduate from Chuka University, currently working at Britam as a Pension Revenue Assistant.
+        I specialize in data handling, financial systems, and growing my skills in tech and analytics.
+    </p>
 </section>
 
-<!-- SOLUTIONS -->
-<section id="projects">
-<h2>Solutions</h2>
-
-<div class="card">
-<h3>RAG AI Pipelines</h3>
-<p>Retrieval-Augmented Generation systems for enterprise knowledge automation.</p>
-</div>
-
-<div class="card">
-<h3>Marketing Automation</h3>
-<p>Automated lead generation, follow-ups, and customer engagement systems.</p>
-</div>
-
-<div class="card">
-<h3>Document Processing</h3>
-<p>AI systems for extracting, analyzing, and processing business documents.</p>
-</div>
-
-<div class="card">
-<h3>Hiring Automation</h3>
-<p>AI-driven recruitment filtering and candidate scoring systems.</p>
-</div>
-
-<div class="card">
-<h3>Real Estate Proposal Generator</h3>
-<p>Automated proposal generation for real estate investment and sales teams.</p>
-</div>
-
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience">
-<h2>Experience</h2>
-
-<div class="card">
-<h3>Britam Holdings Plc</h3>
-<p>Pension Revenue Assistant – Financial operations, reporting, compliance, data management.</p>
-</div>
-
-<div class="card">
-<h3>Oracle Edge AI</h3>
-<p>Founder – Building AI automation systems and enterprise workflow solutions.</p>
-</div>
-
-</section>
-
-<!-- SKILLS -->
 <section id="skills">
-<h2>Skills</h2>
-
-<div class="skills">
-<span>AI Automation</span>
-<span>n8n</span>
-<span>Python</span>
-<span>Power BI</span>
-<span>Stata</span>
-<span>SPSS</span>
-<span>API Integration</span>
-<span>System Design</span>
-</div>
-
+    <h2>Skills</h2>
+    <ul>
+        <li>Data Analysis</li>
+        <li>Excel & SPSS</li>
+        <li>Financial Reporting</li>
+        <li>Basic Web Development</li>
+        <li>Communication & Client Support</li>
+    </ul>
 </section>
 
-<!-- CONTACT -->
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Portfolio website (this project)</p>
+</section>
+
 <section id="contact">
-<h2>Contact</h2>
-
-<p>Email: murigifred892@gmail.com</p>
-<p>LinkedIn: linkedin.com/in/fredrickmurigi</p>
-<p>GitHub: github.com/FredrickNextGen-Ai</p>
-
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p>LinkedIn: www.linkedin.com/in/fredrickmurigi</p>
 </section>
 
 <footer>
-© 2026 Oracle Edge AI | Fredrick Murigi
+    <p>© 2026 Fredrick Murigi. All rights reserved.</p>
 </footer>
 
 </body>
