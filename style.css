@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#081A33;
+color:white;
+line-height:1.6;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#061325;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 10%;
+}
+
+.hero-image img{
+width:300px;
+border-radius:20px;
+border:4px solid #D4A017;
+}
+
+.hero h1{
+font-size:3rem;
+color:#D4A017;
+}
+
+.hero h2{
+margin:10px 0;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+background:#D4A017;
+color:#081A33;
+padding:12px 25px;
+text-decoration:none;
+font-weight:bold;
+border-radius:8px;
+}
+
+section{
+padding:60px 10%;
+}
+
+section h2{
+color:#D4A017;
+margin-bottom:20px;
+}
+
+.card{
+background:#10284A;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skills span{
+background:#D4A017;
+color:#081A33;
+padding:10px 15px;
+border-radius:20px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#061325;
+}
+
+.footer-logo{
+width:100px;
+margin-bottom:10px;
+}
