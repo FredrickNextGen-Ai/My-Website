@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings
 * text=auto
+
+# Force LF for web files (important for HTML/CSS/JS)
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
